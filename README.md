@@ -1,21 +1,37 @@
+---
+title: CSV AI Chatbot
+emoji: 📊
+colorFrom: blue
+colorTo: purple
+sdk: streamlit
+sdk_version: "1.30.0"
+app_file: app.py
+pinned: false
+---
+
 # 📊 CSV AI Chatbot
 
-Turn any CSV file into an AI-powered searchable chatbot using embeddings + FAISS.
+Upload any CSV file and ask questions about your data using AI embeddings.
 
 ## 🚀 Features
-- Upload any CSV
-- Semantic search using Sentence Transformers
-- Fast vector search with FAISS
-- Clean Streamlit UI
+- Upload CSV files
+- Semantic search using embeddings
+- Chat-style interface
+- Fast retrieval using FAISS
 
 ## 🛠️ Tech Stack
-- Python
 - Streamlit
 - Pandas
-- FAISS
 - Sentence Transformers
+- FAISS
 
-## 📦 Installation
+## 💡 How It Works
+1. CSV → text rows  
+2. Text → embeddings  
+3. FAISS search  
+4. Return most relevant rows  
 
-```bash
-pip install -r requirements.txt
+## 🔥 Future Improvements
+- Add LLM (Mistral / Llama)
+- Charts & analytics
+- Multi-file support
