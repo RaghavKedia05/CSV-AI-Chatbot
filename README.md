@@ -1,14 +1,3 @@
----
-title: CSV AI Chatbot
-emoji: 📊
-colorFrom: blue
-colorTo: purple
-sdk: streamlit
-sdk_version: "1.30.0"
-app_file: app.py
-pinned: false
----
-
 # 📊 CSV AI Chatbot
 
 Upload any CSV file and ask questions about your data using AI embeddings.
